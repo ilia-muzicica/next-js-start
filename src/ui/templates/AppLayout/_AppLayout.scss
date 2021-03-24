@@ -1,0 +1,44 @@
+.me-app-layout {
+  min-height: 100vh;
+  //height: 100%;
+
+  &.ant-layout,
+  .ant-layout {
+    background: none;
+  }
+
+  .ant-layout-header {
+    background: linear-gradient(0deg, #389aff 0%, #0e83f6 103.56%);
+    display: flex;
+    align-items: center;
+
+    .header-spacer {
+      flex-grow: 1;
+    }
+
+    img {
+      width: 120px;
+      height: 40px;
+    }
+
+    .actions {
+      button {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  .app-content {
+    padding: 32px;
+  }
+
+  .ant-layout-sider {
+    background: white;
+    overflow-y: scroll;
+  }
+
+  .ant-layout-footer {
+    background: linear-gradient(112.67deg, #ffffff 2.81%, #deeeff 88.37%);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.150787), inset 1px 1px 1px rgba(4, 84, 155, 0.220498);
+  }
+}
